@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MovieList from "./components/MovieList";
 import Sidebar from "./components/Sidebar";
@@ -12,6 +13,7 @@ function App() {
           <MovieList />
         </div>
       </main>
+      <Footer />
     </>
   );
 }
